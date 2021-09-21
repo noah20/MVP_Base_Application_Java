@@ -43,7 +43,7 @@ dependencies {
     implementation 'com.google.dagger:dagger:2.28.3'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.28.3'
 
-    implementation "io.reactivex.rxjava2:rxjava:2.2.6"
+    implementation "io.reactivex.rxjava2:rxjava:2.2.9"
     implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
 
 //    implementation 'io.reactivex.rxjava2:rxandroid:3.0.0'
@@ -63,9 +63,6 @@ dependencies {
     implementation "androidx.sqlite:sqlite:2.1.0"
     // Implementation of the AndroidX SQLite interfaces via the Android framework APIs.
     implementation "androidx.sqlite:sqlite-framework:2.1.0"
-
-
-    def room_version = "2.3.0"
 
     implementation "androidx.room:room-runtime:2.3.0"
     annotationProcessor "androidx.room:room-compiler:2.3.0"
